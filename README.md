@@ -22,8 +22,7 @@ The goal of this project is to practice Azure administration and cloud security 
 Azure Subscription
 └── Resource Group
     ├── Virtual Network
-    │   ├── Public Subnet
-    │   └── Private Subnet
+    │   ├── Subnet
     ├── Network Security Group
     ├── Windows Virtual Machine
     ├── Storage Account

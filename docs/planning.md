@@ -14,7 +14,7 @@ For the first version, I plan to use:
 
 - One resource group
 - One virtual network
-- Two subnets
+- One subnet
 - One network security group
 - One Windows virtual machine
 - One storage account
@@ -34,7 +34,7 @@ Use a resource group so the lab is easy to understand and clean up later.
 
 ### Networking basics
 
-Create a virtual network with two subnets to practice basic segmentation.
+Create a virtual network with one subnet; just the necessary in this case.
 
 ### Access control
 
@@ -66,6 +66,20 @@ Keep the lab small and delete or stop resources when I am not using them.
 
 ---
 
+## Naming Convention
+
+rg-securelab
+vnet-securelab
+snet-securelab
+nsg-securelab
+vm-securelab-win
+stsecurelab01
+kv-securelab
+law-securelab
+budget-student-lab
+
+---
+
 ## Cost notes
 
 Since I am using Azure for Students credits, I need to be careful with costs.
@@ -75,5 +89,7 @@ My basic rules:
 - Avoid expensive services
 - Stop or deallocate virtual machines when I am not using them
 - Delete unused resources
-- Check Azure Cost Management often
+- Use a budget to track spending
 - Keep the first version of the lab small
+
+**Estimated Cost:** Using Pricing Calculator I set an estimated monthly cost of $0.49; I don't need a lot of resources, so I set everything to the minimum (Storage Account capacity, Transactions, VM hours, and more).
