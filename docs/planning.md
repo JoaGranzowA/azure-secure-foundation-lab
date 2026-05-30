@@ -68,15 +68,15 @@ Keep the lab small and delete or stop resources when I am not using them.
 
 ## Naming Convention
 
-rg-securelab
-vnet-securelab
-snet-securelab
-nsg-securelab
-vm-securelab-win
-stsecurelab01
-kv-securelab
-law-securelab
-budget-student-lab
+rg-securelab  
+vnet-securelab  
+snet-securelab  
+nsg-securelab  
+vm-securelab-win  
+stsecurelab01  
+kv-securelab  
+law-securelab  
+budget-student-lab  
 
 ---
 
